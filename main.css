@@ -1,0 +1,98 @@
+p:last-child{ /* Only change  "p" which are last child  */
+	font-family: Tahoma; /*if a "p" has no parent the "p" does not change */
+	font-weight: 900;
+	font-style: italic;
+	font-size: 15px;
+	border:8px ridge red;
+
+}
+p:after{
+	content: "...";
+}
+h1{
+	background-color:yellow;
+	color:blue;
+	padding: 10px 40px;
+	border-style: solid;
+	border-width: 20px;  
+}
+h3{
+	margin: 50px;
+}
+div{
+	border: 5px groove red;
+	background-color: lightblue;
+	width: 200px;
+	height: 200px;
+	padding: 15px 15px 10px;
+	margin:5px;
+
+}
+div p{
+	color: yellow;
+
+}
+
+span{
+	text-decoration: underline;
+}
+.red{
+	color: red;
+
+}
+#blue p {
+	color: blue;
+		font-size: 15px;
+
+
+}
+.ilkharf:first-letter{
+	color: lightgreen;
+
+}
+
+#FirstLastPWork{
+	color: purple;
+}
+
+/* Change Link's properties */
+a{
+
+}
+a:hover{ /*when pointer on link */
+
+}
+a:active{ /* when clicking link */
+
+}
+a:visited{ /*when visited before */
+
+}
+
+/*List Options  -  linear-Gradient */
+ul.a{
+	background:linear-Gradient(turquoise,blue);
+	padding: 20px;
+	list-style-position: inside;
+	list-style-type:circle; 
+}
+/* round corner border and just border  */
+.corner{
+	border-radius: 40px;
+	border: solid 10px;
+	border-color: #ff6666;
+	padding: 20px;
+	width: 200px;
+	height: 150px;
+}
+
+
+
+
+
+
+
+
+body{
+
+}
